@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/Bandmast/app/src/main/res/layout/activity_dashboard.xml" value="0.16893115942028986" />
-        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/Bandmast/app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
-        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/Bandmast/app/src/main/res/layout/activity_main2.xml" value="0.11041666666666666" />
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/Bandmast/app/src/main/res/font/bangers.xml" value="0.23282051282051283" />
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/Bandmast/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/Bandmast/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Abhishek/AndroidStudioProjects/Bandmast/app/src/main/res/layout/activity_main2.xml" value="0.264" />
       </map>
     </option>
   </component>

@@ -8,7 +8,22 @@
     android:orientation="vertical"
     android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
     tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/courses"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="#8E5298"
+       android:padding="5dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/gilroy"/>
 
+</LinearLayout>
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -34,26 +49,27 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/camera" />
+                    android:src="@drawable/born"
+                    android:contentDescription="@null" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="0dp"
                     android:fontFamily="@font/nition"
-                    android:text="Camera"
+                    android:text="@string/get_started"
                     android:textAlignment="center"
                     android:textColor="#1E1E1E"
-                    android:textSize="30sp" />
+                    android:textSize="22sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:fontFamily="@font/nitinooo"
-                    android:text="Hello "
+                    android:text=""
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
@@ -78,16 +94,62 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/eye" />
+                    android:src="@drawable/androidcard3"
+                    android:contentDescription="@null" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="0dp"
                     android:fontFamily="@font/nition"
-                    android:text="Clock"
+                    android:text="@string/c"
+                    android:textAlignment="center"
+                    android:textColor="#1E1E1E"
+                    android:textSize="25sp" />
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_margin="10dp"-->
+                <!--                    android:fontFamily="@font/nitinooo"-->
+                <!--                    android:text="Hello "-->
+                <!--                    android:textAlignment="center"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textSize="15sp" />-->
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="190dp"
+
+            android:layout_marginTop="50dp"
+            app:cardBackgroundColor="#6B45AE"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dollar"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/nition"
+                    android:text="@string/dollar"
                     android:textAlignment="center"
                     android:textColor="#1E1E1E"
                     android:textSize="30sp" />
@@ -97,7 +159,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:fontFamily="@font/nitinooo"
-                    android:text="Hello "
+                    android:text=""
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
@@ -122,16 +184,17 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/dollar" />
+                    android:src="@drawable/picture"
+                    android:contentDescription="@null"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="0dp"
                     android:fontFamily="@font/nition"
-                    android:text="Dollar"
+                    android:text="@string/picture"
                     android:textAlignment="center"
                     android:textColor="#1E1E1E"
                     android:textSize="30sp" />
@@ -141,51 +204,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:fontFamily="@font/nitinooo"
-                    android:text="Hello "
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="15sp" />
-
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="170dp"
-            android:layout_height="190dp"
-
-            android:layout_marginTop="50dp"
-            app:cardBackgroundColor="#6B45AE"
-            app:cardCornerRadius="50dp"
-            app:cardElevation="50dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/picture" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:fontFamily="@font/nition"
-                    android:text="Picture"
-                    android:textAlignment="center"
-                    android:textColor="#1E1E1E"
-                    android:textSize="30sp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:fontFamily="@font/nitinooo"
-                    android:text="Hello "
+                    android:text=""
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
@@ -210,16 +229,17 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/folder" />
+                    android:src="@drawable/folder"
+                    android:contentDescription="@null" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="0dp"
                     android:fontFamily="@font/nition"
-                    android:text="Folder"
+                    android:text="@string/folder"
                     android:textAlignment="center"
                     android:textColor="#1E1E1E"
                     android:textSize="30sp" />
@@ -229,7 +249,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:fontFamily="@font/nitinooo"
-                    android:text="Hello "
+                    android:text=""
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
@@ -254,16 +274,17 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/moneybag" />
+                    android:src="@drawable/moneybag"
+                    android:contentDescription="@null" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="0dp"
                     android:fontFamily="@font/nition"
-                    android:text="Money Bag"
+                    android:text="@string/money"
                     android:textAlignment="center"
                     android:textColor="#1E1E1E"
                     android:textSize="30sp" />
@@ -273,7 +294,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:fontFamily="@font/nitinooo"
-                    android:text="Hello "
+                    android:text=""
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="15sp" />

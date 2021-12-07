@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Bandmast</string>
+
+    <string name="money">Money</string>
+    <string name="courses">Courses</string>
+    <string name="get_started">Get Started</string>
+
+    <string name="c">C++</string>
+    <string name="dollar">Dollar</string>
+    <string name="picture">Picture</string>
+
+    <string name="folder">Folder</string>
+
+    <string name="ait_hub">AIT-HUB</string>
 </resources>
